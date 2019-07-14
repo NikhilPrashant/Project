@@ -1,0 +1,108 @@
+/* Set a style for all elements inside the header i.e. Sign Up button, Sign In button, the title "ScriBBler" & the sub-heading below "ScriBBLer" */
+
+.header {
+  height: 151px;
+  padding-left: 10px;
+}
+
+/* Sign Up and Sign In */
+.btn {
+  border: none;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  margin: 10px;
+  background-color: blue;
+  color: white;
+}
+
+.btn:hover {
+  filter: brightness(151%);
+}
+
+h {
+  font-size: 72px;
+  color: darkblue;
+  font-family: 'Satisfy', cursive;
+}
+
+p1 {
+  font-size: 31px; font-family: 'Cookie'; margin: 0px;
+}
+
+.logo {
+  float: left;
+}
+
+/* Sign Up and Sign In modal */
+.modal, .modal1 {
+  display: none;
+  position: fixed;
+  top: 16%;
+  left: 15%;
+  width: 70%;
+  height: auto;;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.8);
+  box-shadow: 0px 0px 1px 5000px rgba(0,0,0,0.8);
+  z-index: 1;
+  min-width: 400px;
+}
+
+/* Modal Content */
+.modal-content, .modal-content1 {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 29%;
+}
+
+/* The Close Button */
+.closeModal, .closeModal1 {
+  float: right;
+  font-size: 28px;
+  color: grey;
+  cursor: pointer;
+  font-weight: bold;
+}
+  
+h2 {
+  color: black;
+  text-align: center;
+  font-family: Arial;
+}
+
+  
+label {
+  color: black;
+  font-family: Arial;
+}
+  
+input[type=text], input[type=password] {
+  width: 88%;
+  padding: 12px 20px;
+  background-color: #f2f2f2;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border
+}
+
+#submit {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: #45a049;
+}
