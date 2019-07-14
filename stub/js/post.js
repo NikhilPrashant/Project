@@ -4,7 +4,7 @@ function myFunction1(button) {
   var b = document.getElementById("blogBody");
   //  When the user clicks Save button, make post uneditable and remove borders and change button to Edit
   if (a.contentEditable == "true") {
-    a.contentEditble = "false";
+    a.contentEditable = "false";
     b.contentEditable = "false";
     a.style.border = "none";
     b.style.border = "none";
